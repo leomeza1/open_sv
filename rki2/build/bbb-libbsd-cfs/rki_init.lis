@@ -1,0 +1,24 @@
+ARM GAS   			page 1
+
+
+   1              	 .cpu cortex-a8
+   2              	 .arch armv7-a
+   3              	 .fpu softvfp
+   4              	 .arch_extension sec
+   5              	 .eabi_attribute 20,1
+   6              	 .eabi_attribute 21,1
+   7              	 .eabi_attribute 23,3
+   8              	 .eabi_attribute 24,1
+   9              	 .eabi_attribute 25,1
+  10              	 .eabi_attribute 26,2
+  11              	 .eabi_attribute 30,2
+  12              	 .eabi_attribute 34,1
+  13              	 .eabi_attribute 18,4
+  14              	 .file "rki_init.c"
+ARM GAS   			page 2
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 rki_init.c
+
+NO UNDEFINED SYMBOLS

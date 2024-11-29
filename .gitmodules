@@ -1,0 +1,15 @@
+[submodule "rtems/src/rsb"]
+	path = rtems/src/rsb
+	url = https://gitlab.rtems.org/rtems/tools/rtems-source-builder.git
+	shallow = true
+[submodule "rtems/src/rtems"]
+	path = rtems/src/rtems
+	url = https://gitlab.rtems.org/rtems/rtos/rtems.git
+	shallow = true
+[submodule "rtems/src/rtems-libbsd"]
+	path = rtems/src/rtems-libbsd
+	url = https://gitlab.rtems.org/rtems/pkg/rtems-libbsd.git
+	shallow = true
+[submodule "cFS"]
+	path = cFS
+	url = https://github.com/leomeza1/cFS.git
