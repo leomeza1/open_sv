@@ -10,3 +10,6 @@
 	path = rtems/src/rtems-libbsd
 	url = https://gitlab.rtems.org/rtems/pkg/rtems-libbsd.git
 	shallow = true
+[submodule "cFS"]
+	path = cFS
+	url = https://github.com/leomeza1/cFS.git
