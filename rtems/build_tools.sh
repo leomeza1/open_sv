@@ -11,7 +11,7 @@ echo "$INSTALL_DIR/tools/6"
 echo ""
 read -p "Continue? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
 
-cd $RTEMS_DIR/src/rsb/rtems
+cd $RTEMS_DIR/tools/rsb/rtems
 ../source-builder/sb-check
 ../source-builder/sb-set-builder --prefix=$INSTALL_DIR/tools/6 6/rtems-arm
 

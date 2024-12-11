@@ -11,10 +11,10 @@ echo "$INSTALL_DIR/bsp/6/arm-rtems6/beagleboneblack/lib"
 echo ""
 read -p "Continue? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
 
-# Might need to add the tools directory to the PATH
+# Might need to add the tools directory to the PATH variable
 # export PATH="$INSTALL_DIR/tools/6/bin:$PATH"
 
-cd $RTEMS_DIR/src/rtems-libbsd
+cd $RTEMS_DIR/pkg/rtems-libbsd
 ./waf configure --prefix=$INSTALL_DIR/bsp/6 \
   --rtems-tools=$INSTALL_DIR/tools/6        \
   --rtems-bsps=arm/beagleboneblack          \

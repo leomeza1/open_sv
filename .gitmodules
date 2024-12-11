@@ -1,15 +1,15 @@
-[submodule "rtems/src/rsb"]
-	path = rtems/src/rsb
-	url = https://gitlab.rtems.org/rtems/tools/rtems-source-builder.git
-	shallow = true
-[submodule "rtems/src/rtems"]
-	path = rtems/src/rtems
-	url = https://gitlab.rtems.org/rtems/rtos/rtems.git
-	shallow = true
-[submodule "rtems/src/rtems-libbsd"]
-	path = rtems/src/rtems-libbsd
-	url = https://gitlab.rtems.org/rtems/pkg/rtems-libbsd.git
-	shallow = true
 [submodule "cFS"]
 	path = cFS
 	url = https://github.com/leomeza1/cFS.git
+[submodule "rtems/tools/rsb"]
+	path = rtems/tools/rsb
+	url = https://gitlab.rtems.org/rtems/tools/rtems-source-builder.git
+	branch = 6
+[submodule "rtems/rtos/rtems"]
+	path = rtems/rtos/rtems
+	url = https://gitlab.rtems.org/rtems/rtos/rtems.git
+	branch = 6
+[submodule "rtems/pkg/rtems-libbsd"]
+	path = rtems/pkg/rtems-libbsd
+	url = https://gitlab.rtems.org/rtems/pkg/rtems-libbsd.git
+	branch = 6-freebsd-12

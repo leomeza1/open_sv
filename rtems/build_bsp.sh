@@ -13,8 +13,8 @@ read -p "Continue? (Y/N): " confirm && [[ $confirm == [yY] || $confirm == [yY][e
 
 export PATH="$INSTALL_DIR/tools/6/bin:$PATH"
 
-cp config.ini $RTEMS_DIR/src/rtems
-cd $RTEMS_DIR/src/rtems
+cp config.ini $RTEMS_DIR/rtos/rtems
+cd $RTEMS_DIR/rtos/rtems
 ./waf configure --prefix=$INSTALL_DIR/bsp/6
 ./waf
 ./waf install
